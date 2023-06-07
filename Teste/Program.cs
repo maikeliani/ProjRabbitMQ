@@ -13,7 +13,7 @@ internal class Program
             Description = " to com fome"
         };
 
-        for (int i = 0; i < 10000; i++)
+        for (int i = 0; i < 10; i++)
         {
 
             HttpResponseMessage response = rabbit.PostAsJsonAsync("https://localhost:7195/api/Messages", mensage).Result;
